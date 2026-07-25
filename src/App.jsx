@@ -53,8 +53,8 @@ function App() {
       <header className="nav-wrap">
         <nav className="nav container">
           <a className="brand" href="#top" aria-label="Homepage">
-            HA<span>.</span>
-          </a>
+            <img src="/bandana.png" alt="Hüseyin Aydın logo" />
+            </a>
 
           <div className="nav-links">
             <a href="#about">About</a>
@@ -79,7 +79,11 @@ function App() {
 
             <p className="hero-kicker">HELLO, I’M</p>
             <h1>Hüseyin Aydın</h1>
-            <h2>Junior Penetration Tester</h2>
+            <h2>
+                Offensive Security
+                <span className="hero-divider"> / </span>
+                 Junior Penetration Tester
+            </h2>
 
             <p className="hero-text">
               Cybersecurity graduate focused on penetration testing, vulnerability
